@@ -1,6 +1,6 @@
 # HN-NO-GPT-BS
 
-Chrome Extension for freeing HN from tiresome OpenAI/ChatGPT clutter.
+Chrome extension to free HN from tiresome OpenAI/ChatGPT clutter.
 
 **Problem**: Parts of HN (like [“shownew”](https://news.ycombinator.com/shownew)) are unusable these days due to the tiresome OpenAI/ChatGPT-related clutter.
 
