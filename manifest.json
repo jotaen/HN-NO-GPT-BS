@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "HN-NO-GPT-BS",
+  "version": "1.0",
+  "description": "Free HN from tiresome OpenAI/ChatGPT clutter!",
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": [
+        "https://news.ycombinator.com/*"
+      ]
+    }
+  ]
+}
