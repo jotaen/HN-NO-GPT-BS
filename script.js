@@ -32,10 +32,10 @@ const eligibleElements = [
 const exceptions = [
 	{
 		description: "It’s above points threshold",
-		predicate: sublineEl => parseInt(sublineEl.querySelector(".score").innerText) > config.exceptions.pointsThreshold,
+		predicate: sublineEl => parseInt(sublineEl.querySelector(".score")?.innerText) > config.exceptions.pointsThreshold,
 	}, {
 		description: "It’s above comment threshold",
-		predicate: sublineEl => parseInt(sublineEl.querySelector(".subline").childNodes[11].innerText) > config.exceptions.commentThreshold,
+		predicate: sublineEl => parseInt(sublineEl.querySelector(".subline")?.childNodes[11]?.innerText) > config.exceptions.commentThreshold,
 	},
 ]
 
